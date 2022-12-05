@@ -1,0 +1,24 @@
+from  math import sqrt
+
+
+def variable(num1, num2, num3):
+    cont=0
+    cont=cont+1
+    if ((num2**2)-4*num1*num3)<0:
+        print("El resultado es: ")
+    elif (-num2 + sqrt(num2**2-(4*num1*num3)))/(2*num1):
+        print('es positivo')
+        return 
+    elif (-num2 -sqrt(num2**2-(4*num1*num3)))/(2*num1):
+        print('es negativo')
+        
+    else:
+        print("EL resultado es el siguiente:")
+        
+num1=int(input("Introduzca un numero: "))
+num2=int(input("Introduzca un numero:"))
+num3=int(input("Introduzca un numero: "))
+
+variable(num1,num2,num3)
+
+    
