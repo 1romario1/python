@@ -1,0 +1,1 @@
+linea=lautos[i]#A la variable linea le agreamos una lista llamada lautos con contenido de i
